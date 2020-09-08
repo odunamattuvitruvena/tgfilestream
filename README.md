@@ -1,6 +1,8 @@
 # tgfilestream
 A Telegram bot that can stream Telegram files to users over HTTP.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Setup
 Install dependencies (see [requirements.txt](/requirements.txt)), configure
 environment variables (see below) and run with `python3 -m tgfilestream`.
