@@ -46,11 +46,11 @@
     },
     "TG_START_MESG": {
       "description": "The message that should be shown in Telegram chat, in case of non-media message",
-      "value": ""
+      "value": "Don't send unwanted message(non-media), Otherwise you will be ban."
     },
     "TG_G_C_MESG": {
       "description": "The message that should be shown in a Telegram Group chat",
-      "value": ""
+      "value": "delete"
     },
     "TG_SESSION_NAME": {
       "description": " (defaults to tgfilestream) - The name of the Telethon session file to use",
@@ -58,8 +58,8 @@
     },
     "TG_BOT_FATHER_TOKEN": {
       "description": "(defaults to None) - This option is mutually exclusive to TG_SESSION_NAME, and if set, the client will login as a bot, instead of an user",
-      "value": ""
+      "value": "973349613:AAERWqTpU82kS0CV3h_uBBvxdLhHB0amLkQ"
     }
   },
-  "stack": "container"
+  "stack": "heroku-18"
 }
